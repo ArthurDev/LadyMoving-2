@@ -122,6 +122,7 @@
 								{if !empty($HOOK_HEADERRIGHT)}
 									<div id="header_right" class="inner">
 										{$HOOK_HEADERRIGHT}	
+										<p> bonjour</p>
 									</div>
 								{/if}
 								{if !empty($HOOK_TOPNAVIGATION) }
