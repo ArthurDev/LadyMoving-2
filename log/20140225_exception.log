@@ -1,0 +1,580 @@
+*ERROR* 	2014/02/25 - 15:15:17: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.name AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:16:44: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:16:58: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:19:25: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:25:51: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:26:11: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:26:18: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:26:57: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:27:11: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:31:22: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:32:04: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:32:26: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:32:36: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:32:51: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:33:14: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:33:16: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:33:37: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:34:53: Column 'firstname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:35:30: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:36:03: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:36:07: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:37:17: Unknown column 'employee' in 'field list'<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,`employee`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect
+		FROM `ps_customer` a
+		
+		
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:37:40: Unknown column 'employee' in 'field list'<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,`employee`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect
+		FROM `ps_customer` a
+		
+		
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:38:37: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:38:51: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:38:53: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:43:03: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,`id_employee`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:43:11: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php
+*ERROR* 	2014/02/25 - 15:43:19: Column 'lastname' in field list is ambiguous<br /><br /><pre>
+		SELECT SQL_CALC_FOUND_ROWS
+		a.`id_customer`,a.id_gender as id_gender,`lastname`,`firstname`,`email`,a.active as active,`newsletter`,`optin`
+		, 
+		a.date_add,
+		IF (YEAR(`birthday`) = 0, "-", (YEAR(CURRENT_DATE)-YEAR(`birthday`)) - (RIGHT(CURRENT_DATE, 5) < RIGHT(birthday, 5))) AS `age`, (
+			SELECT c.date_add FROM ps_guest g
+			LEFT JOIN ps_connections c ON c.id_guest = g.id_guest
+			WHERE g.id_customer = a.id_customer
+			ORDER BY c.date_add DESC
+			LIMIT 1
+		) as connect, a.id_employee AS id_employee, cl.employee AS employee
+		FROM `ps_customer` a
+		
+		LEFT JOIN`ps_employee` ad ON (ad.`id_employee` = a.`id_employee`) 
+		
+		WHERE 1 AND a.`deleted` = 0 
+		
+		
+		ORDER BY `date_add` DESC LIMIT 0,50</pre> at line 613 in file classes/db/Db.php

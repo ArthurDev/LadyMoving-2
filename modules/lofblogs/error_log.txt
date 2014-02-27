@@ -1,0 +1,2 @@
+ADD IMAGE - Exist primary D:\landofcoder\xampp\htdocs\thinvt\leo_clothes/img/lofblogs/articles/pav-c2-100x126.jpg
+ADD IMAGE - Exist thumb D:\landofcoder\xampp\htdocs\thinvt\leo_clothes/img/lofblogs/thumbs/pav-c2-100x126.jpg
