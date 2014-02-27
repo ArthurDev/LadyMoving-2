@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 15:21:50
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 15:40:14
          compiled from "/Applications/MAMP/htdocs/LadyMoving-2/themes/leoclot/modules/blockuserinfo/blockuserinfo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1530043981530f49fedf78e8-40476681%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1363658317530f4e4e1a6283-92898306%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1530043981530f49fedf78e8-40476681',
+  'nocache_hash' => '1363658317530f4e4e1a6283-92898306',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_530f49ff2aceb2_39234332',
+  'unifunc' => 'content_530f4e4e513a36_12661954',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_530f49ff2aceb2_39234332')) {function content_530f49ff2aceb2_39234332($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_530f4e4e513a36_12661954')) {function content_530f4e4e513a36_12661954($_smarty_tpl) {?>
 
 <!-- Block user information module HEADER -->
 <ul id="header_user_info" class="links list-inline pull-left">
