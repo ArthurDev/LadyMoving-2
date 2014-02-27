@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 17:06:25
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 17:30:18
          compiled from "/Applications/MAMP/htdocs/LadyMoving-2/themes/leoclot/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:473551297530f6281da2de5-14100209%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:344874684530f681a1d1d91-40589639%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9436bc88457281ddfa324d618485e7f7259aae4f' => 
     array (
       0 => '/Applications/MAMP/htdocs/LadyMoving-2/themes/leoclot/header.tpl',
-      1 => 1393514096,
+      1 => 1393518213,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '473551297530f6281da2de5-14100209',
+  'nocache_hash' => '344874684530f681a1d1d91-40589639',
   'function' => 
   array (
   ),
@@ -65,9 +65,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_530f6282dbb113_03957090',
+  'unifunc' => 'content_530f681b10cbe2_77841344',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_530f6282dbb113_03957090')) {function content_530f6282dbb113_03957090($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/MAMP/htdocs/LadyMoving-2/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_530f681b10cbe2_77841344')) {function content_530f681b10cbe2_77841344($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/MAMP/htdocs/LadyMoving-2/tools/smarty/plugins/modifier.escape.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
@@ -232,7 +232,7 @@ themes/<?php echo $_smarty_tpl->tpl_vars['LEO_THEMENAME']->value;?>
 									<div id="header_right" class="inner">
 										<?php echo $_smarty_tpl->tpl_vars['HOOK_HEADERRIGHT']->value;?>
 	
-										<p> bonjour</p>
+										<p> bonjour upload 2 plouf chika</p>
 									</div>
 								<?php }?>
 								<?php if (!empty($_smarty_tpl->tpl_vars['HOOK_TOPNAVIGATION']->value)){?>
