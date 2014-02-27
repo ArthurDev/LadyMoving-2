@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 15:40:13
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 17:06:21
          compiled from "/Applications/MAMP/htdocs/LadyMoving-2/themes/leoclot/modules/leomanufacturerscroll/leomanufacturerscroll.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:617089414530f4e4dab77c6-47486972%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:496811952530f627d7f5fc5-32238782%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '617089414530f4e4dab77c6-47486972',
+  'nocache_hash' => '496811952530f627d7f5fc5-32238782',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_530f4e4dc04b84_73444622',
+  'unifunc' => 'content_530f627d94b020_33366113',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_530f4e4dc04b84_73444622')) {function content_530f4e4dc04b84_73444622($_smarty_tpl) {?><div id="mycarouselHolder" class="block col-md-12 col-sm-12 col-xs-12 ">
+<?php if ($_valid && !is_callable('content_530f627d94b020_33366113')) {function content_530f627d94b020_33366113($_smarty_tpl) {?><div id="mycarouselHolder" class="block col-md-12 col-sm-12 col-xs-12 ">
 		<?php if ($_smarty_tpl->tpl_vars['show_title']->value){?>
 			<div class="span3">
 				<h2 class="title_specials"><?php echo $_smarty_tpl->tpl_vars['module_title']->value;?>

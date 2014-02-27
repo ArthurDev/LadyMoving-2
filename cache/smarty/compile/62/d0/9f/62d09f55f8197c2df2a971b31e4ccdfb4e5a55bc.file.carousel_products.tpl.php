@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 15:40:13
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 17:06:20
          compiled from "/Applications/MAMP/htdocs/LadyMoving-2/themes/leoclot/modules/leomanagewidgets/themes/carousel_products.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:581570173530f4e4d2c6976-06402987%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1064989897530f627c771815-97393387%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '581570173530f4e4d2c6976-06402987',
+  'nocache_hash' => '1064989897530f627c771815-97393387',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_530f4e4d9f7634_30657380',
+  'unifunc' => 'content_530f627d735ba2_06196131',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_530f4e4d9f7634_30657380')) {function content_530f4e4d9f7634_30657380($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/MAMP/htdocs/LadyMoving-2/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_530f627d735ba2_06196131')) {function content_530f627d735ba2_06196131($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/MAMP/htdocs/LadyMoving-2/tools/smarty/plugins/modifier.escape.php';
 ?><?php if (!empty($_smarty_tpl->tpl_vars['mproducts']->value)){?>
 <?php $_smarty_tpl->tpl_vars['itemsperpage'] = new Smarty_variable($_smarty_tpl->tpl_vars['datas']->value['configs']['itemspage'], null, 0);?>
 <?php $_smarty_tpl->tpl_vars['columnspage'] = new Smarty_variable($_smarty_tpl->tpl_vars['datas']->value['configs']['columns'], null, 0);?>
