@@ -122,7 +122,7 @@
 								{if !empty($HOOK_HEADERRIGHT)}
 									<div id="header_right" class="inner">
 										{$HOOK_HEADERRIGHT}	
-										<p> bonjour upload 2 plouf</p>
+										<p> bonjour upload 2 plouf chika</p>
 									</div>
 								{/if}
 								{if !empty($HOOK_TOPNAVIGATION) }
