@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 17:16:28
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 17:28:34
          compiled from "C:\wamp\www\Github\LadyMoving-2\themes\leoclot\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11587530f5f9e604ca5-55931477%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6f94e4a4b926c7e2d916a6d5236469e08dd34d35' => 
     array (
       0 => 'C:\\wamp\\www\\Github\\LadyMoving-2\\themes\\leoclot\\header.tpl',
-      1 => 1393517767,
+      1 => 1393518469,
       2 => 'file',
     ),
   ),
@@ -232,7 +232,7 @@ themes/<?php echo $_smarty_tpl->tpl_vars['LEO_THEMENAME']->value;?>
 									<div id="header_right" class="inner">
 										<?php echo $_smarty_tpl->tpl_vars['HOOK_HEADERRIGHT']->value;?>
 	
-										<p> bonjour upload 2</p>
+										<p> bonjour upload 2 plouf chika</p>
 									</div>
 								<?php }?>
 								<?php if (!empty($_smarty_tpl->tpl_vars['HOOK_TOPNAVIGATION']->value)){?>
