@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 16:54:06
+<?php /* Smarty version Smarty-3.1.14, created on 2014-02-27 17:16:28
          compiled from "C:\wamp\www\Github\LadyMoving-2\themes\leoclot\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11587530f5f9e604ca5-55931477%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6f94e4a4b926c7e2d916a6d5236469e08dd34d35' => 
     array (
       0 => 'C:\\wamp\\www\\Github\\LadyMoving-2\\themes\\leoclot\\header.tpl',
-      1 => 1393516390,
+      1 => 1393517767,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_530f5f9e7f9dd8_19657101',
   'variables' => 
   array (
     'lang_iso' => 0,
@@ -64,8 +66,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'LEO_LAYOUT_DIRECTION' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_530f5f9e7f9dd8_19657101',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_530f5f9e7f9dd8_19657101')) {function content_530f5f9e7f9dd8_19657101($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include 'C:\\wamp\\www\\Github\\LadyMoving-2\\tools\\smarty\\plugins\\modifier.escape.php';
 ?>
@@ -232,7 +232,7 @@ themes/<?php echo $_smarty_tpl->tpl_vars['LEO_THEMENAME']->value;?>
 									<div id="header_right" class="inner">
 										<?php echo $_smarty_tpl->tpl_vars['HOOK_HEADERRIGHT']->value;?>
 	
-										<p> bonjour</p>
+										<p> bonjour upload 2</p>
 									</div>
 								<?php }?>
 								<?php if (!empty($_smarty_tpl->tpl_vars['HOOK_TOPNAVIGATION']->value)){?>
