@@ -9,6 +9,8 @@ cache/tcpdf/*
 
 config/xml/*.xml
 config/settings.inc.php
+config/defines.inc.php
+
 
 log/*.log
 
@@ -27,4 +29,4 @@ themes/default/cache/*.css
 # Ignore files on root directory
 robots.txt
 sitemap.xml
-config/settings.inc.php
+.htaccess
